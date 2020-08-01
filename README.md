@@ -2,7 +2,7 @@
 
 Website for my prototype restaurant Adare
 
-![screenshot](https://github.com/ConnerCoding/restaurantAdare/blob/master/images/homepage.png)
+![screenshot](https://github.com/ConnerCoding/todolist/blob/master/todoimage.png)
 
 
 Stack
@@ -10,16 +10,15 @@ Stack
 
 - HTML5
 - CSS3
-- Google Maps API
-- OpenTable API
+- JavaScript
 
 
 Quick Start
 -----------
 
 ```shell
-$ git clone https://github.com/ConnerCoding/restaurantAdare.git
-$ cd restaurantAdare
+$ git clone https://github.com/ConnerCoding/todolist.git
+$ cd todolist
 $ run live server
 $ or simply open html file
 ```
