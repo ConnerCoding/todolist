@@ -1,6 +1,6 @@
 # todolist
 
-Website for my prototype restaurant Adare
+Web application for todo list utilizing local storage to save your information
 
 ![screenshot](https://github.com/ConnerCoding/todolist/blob/master/todoimage.png)
 
