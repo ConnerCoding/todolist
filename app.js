@@ -113,6 +113,7 @@ function saveLocalTodos(todo) {
 
 function getTodos() {
     let todos;
+    // If todos is null, create new array, otherwise load from localStorage via JSON
     if (localStorage.getItem('todos') === null) {
         todos = [];
     } else {
@@ -155,6 +156,7 @@ function removeLocalTodos(todo) {
     } else {
         todos = JSON.parse(localStorage.getItem('todos'));
     }
+    // Find index of todo to be deleted and remove from localStorage via splice
     const todoIndex = todo.children[0].innerText;
     todos.splice(todos.indexOf(todoIndex), 1);
     localStorage.setItem('todos', JSON.stringify(todos));
