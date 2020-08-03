@@ -73,6 +73,7 @@ function filterTodo(e) {
     const todos = todoList.childNodes;
     todos.forEach((todo) => {
         
+        // Filter todo list based on input selected (flex to show or none to hide)
         switch (e.target.value) {
             case 'all':
                 todo.style.display = 'flex';
